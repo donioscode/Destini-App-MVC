@@ -15,6 +15,7 @@
 		9129CBFE2BD7D70F0015B88E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9129CBFD2BD7D70F0015B88E /* Base */; };
 		9129CC072BD7D8100015B88E /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129CC062BD7D8100015B88E /* Story.swift */; };
 		9129CC092BD7D8260015B88E /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129CC082BD7D8260015B88E /* StoryBrain.swift */; };
+		9129CC0D2BD7D90F0015B88E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9129CC0C2BD7D90F0015B88E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9129CBFF2BD7D70F0015B88E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9129CC062BD7D8100015B88E /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		9129CC082BD7D8260015B88E /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
+		9129CC0C2BD7D90F0015B88E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				9129CC0B2BD7D8490015B88E /* Controller */,
 				9129CBFA2BD7D70F0015B88E /* Assets.xcassets */,
 				9129CBFF2BD7D70F0015B88E /* Info.plist */,
+				9129CC0C2BD7D90F0015B88E /* README.md */,
 			);
 			path = "Destini-App-MVC";
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				9129CBFB2BD7D70F0015B88E /* Assets.xcassets in Resources */,
 				9129CBFE2BD7D70F0015B88E /* Base in Resources */,
+				9129CC0D2BD7D90F0015B88E /* README.md in Resources */,
 				9129CBF92BD7D70D0015B88E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
