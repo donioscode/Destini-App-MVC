@@ -9,20 +9,19 @@
 /* Begin PBXBuildFile section */
 		9129CBF22BD7D70D0015B88E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129CBF12BD7D70D0015B88E /* AppDelegate.swift */; };
 		9129CBF42BD7D70D0015B88E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129CBF32BD7D70D0015B88E /* SceneDelegate.swift */; };
-		9129CBF62BD7D70D0015B88E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129CBF52BD7D70D0015B88E /* ViewController.swift */; };
 		9129CBF92BD7D70D0015B88E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9129CBF82BD7D70D0015B88E /* Base */; };
 		9129CBFB2BD7D70F0015B88E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9129CBFA2BD7D70F0015B88E /* Assets.xcassets */; };
 		9129CBFE2BD7D70F0015B88E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9129CBFD2BD7D70F0015B88E /* Base */; };
 		9129CC072BD7D8100015B88E /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129CC062BD7D8100015B88E /* Story.swift */; };
 		9129CC092BD7D8260015B88E /* StoryBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129CC082BD7D8260015B88E /* StoryBrain.swift */; };
 		9129CC0D2BD7D90F0015B88E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9129CC0C2BD7D90F0015B88E /* README.md */; };
+		9129CC0F2BD8FFF30015B88E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129CC0E2BD8FFF30015B88E /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9129CBEE2BD7D70D0015B88E /* Destini-App-MVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Destini-App-MVC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9129CBF12BD7D70D0015B88E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9129CBF32BD7D70D0015B88E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9129CBF52BD7D70D0015B88E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9129CBF82BD7D70D0015B88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9129CBFA2BD7D70F0015B88E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9129CBFD2BD7D70F0015B88E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -30,6 +29,7 @@
 		9129CC062BD7D8100015B88E /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
 		9129CC082BD7D8260015B88E /* StoryBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBrain.swift; sourceTree = "<group>"; };
 		9129CC0C2BD7D90F0015B88E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		9129CC0E2BD8FFF30015B88E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +95,7 @@
 		9129CC0B2BD7D8490015B88E /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9129CBF52BD7D70D0015B88E /* ViewController.swift */,
+				9129CC0E2BD8FFF30015B88E /* ViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -172,8 +172,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9129CC0F2BD8FFF30015B88E /* ViewController.swift in Sources */,
 				9129CC092BD7D8260015B88E /* StoryBrain.swift in Sources */,
-				9129CBF62BD7D70D0015B88E /* ViewController.swift in Sources */,
 				9129CBF22BD7D70D0015B88E /* AppDelegate.swift in Sources */,
 				9129CBF42BD7D70D0015B88E /* SceneDelegate.swift in Sources */,
 				9129CC072BD7D8100015B88E /* Story.swift in Sources */,
