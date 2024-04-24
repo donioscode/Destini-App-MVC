@@ -8,7 +8,7 @@
 import Foundation
 
 struct StoryBrain {
-    let story = [ Story(
+    let stories = [ Story(
         title: "Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: 'Need a ride, boy?'.",
         choice1: "I'll hop in. Thanks for the help!", choice1Destination: 2,
         choice2: "Better ask him if he's a murderer first.",choice2Destination: 1
@@ -43,5 +43,28 @@ struct StoryBrain {
     )
    ]
     
+    var storyNumber = 0
+   
+    func getstoryTitle() -> String {
+        return stories[storyNumber].title
+    }
     
+    func getChoice1 () -> String {
+        return stories[storyNumber].choice1
+    }
+    
+    func getChoice2 () -> String {
+        return stories[storyNumber].choice2
+    }
+   
+    
+    mutating func nextStory(userChoise: String) {
+        
+        let currentStory = stories[storyNumber]
+        if userChoise == currentStory.choice1 {
+            storyNumber = currentStory.choice1Destination
+        } else if userChoise == currentStory.choice2 {
+            storyNumber = currentStory.choice2Destination
+        }
+    }
 }
